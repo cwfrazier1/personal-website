@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Lightbox CSS -->
+    <link href="ekko-lightbox.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/styles.css" rel="stylesheet">
+
+    <title>My Photos</title>
+  </head>
+  <body class="bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <a href="images/photo1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3">
+          <img src="images/photo1.jpg" class="img-fluid rounded">
+        </a>
+        <!-- Repeat above block for each photo -->
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery, Bootstrap Bundle (includes Popper) and Bootstrap Lightbox -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="ekko-lightbox.js"></script>
+    <script>
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
+  </body>
+</html>
