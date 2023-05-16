@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>Chester Frazier: Bob, the bot I created to look after me</title>
+  </head>
+  <body class="bg-dark text-white">
+    <header class="header-container">
+      <h1 class="text-center">Chester W. Frazier</h1>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="files/Resume-2023.pdf">Resume</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Personal Essays
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="bob.html">Bob: The Bot I Created to Look After Me</a>
+                <a class="dropdown-item" href="wrong-is-fucking-wrong.html">Wrong is Fucking Wrong</a>
+                <a class="dropdown-item" href="my-job-is.html">My Job Is</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Photos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                <a class="dropdown-item" href="photo1.html">Photo 1</a>
+                <a class="dropdown-item" href="photo2.html">Photo 2</a>
+                <!-- Add more photos as needed -->
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="content">
+        <p>Bob: The Bot I Created to Watch Out for Me</p>
+
+<p>I first started working on Bob a few years ago. How it began was I lived alone and had my own apartment and had my business. It was not unusual for my family or my best friends not to hear from me for weeks at a time especially if I was knee deep in a development project. However, because of this I realized that if something were to happen to me, it could have been a while before anybody realized it (after all, I do have cerebral palsy so I am more prone to accidents).</p>
+
+<p>So I created Bob. The first task I programmed Bob to do was to check on me every eight or nine hours by sending a message to my phone. If I didn't respond within so many hours, it would send a text message to my family and my best friends saying, “it's been x hours since I had checked in, could someone please check on him?” This worked well. Too well. The problem with it was if I would occasionally sleep in, I wouldn't hear the request to check in and it would send a lot of false alarms.</p>
+
+<p>What I did to solve the “bot that cried wolf” problem was reporting common daily activities to Bob. Whenever I did one of the following activities, Bob would count it as a “check in”, resetting the clock:</p>
+
+<ul>
+<li>Post something on Twitter or Facebook</li>
+<li>Using my phone's location, check in every time I left and came back to my apartment</li>
+</ul>
+
+<p>Since I was using an Android phone while I was developing the upgrades, I was able to go deeper into the integrations such as:</p>
+
+<ul>
+<li>Every time I sent a text message</li>
+<li>Every time I made a phone call</li>
+<li>Every time I answered a phone call</li>
+</ul>
+
+<p>All of those activities counted as a “check in” (those activities don't count now that I switched back over to iOS since Apple doesn't allow developers access to the phone or messages portion of their devices).</p>
+
+<p>I also expanded it where if I'm at either a hospital or a police station in Bakersfield for over ten minutes (to prevent it from going off by just driving by), it will send me a message asking me if I'm okay? If I don't respond within ten minutes, it will alert everyone where I'm at.</p>
+
+<p>The next portion of the system that I want to get around to developing is adding motion sensors so Bob automatically knows when I wake up in the mornings and when I go to bed at night.</p>
+
+<p>However, my goal is to expand its functionality than just being a monitoring system. I'm not quite sure how yet but I want to make it smarter to either automatically handle a handful of digital tasks or do a lot of the repetitive steps for me.</p>
+    </div>
+    <footer class="footer-container text-center">
+      <hr /
+      <p>Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        <br />
+        Chester Frazier</p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
